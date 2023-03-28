@@ -29,7 +29,7 @@ h1.ex-title{
 main{
     background-color: white;
     margin: 50px auto;
-    height: 800px;
+    height: 600px;
     width: 60%;
     border-radius: 5px;
 }
@@ -61,13 +61,16 @@ section.inputs > div.searchbar{
 }
 
 main > section.list{
-    padding: 10px 50px;
+    padding: 35px 50px;
+}
+
+section.list > h2{
+    margin-left: 3px;
 }
 
 section.list > ul{
     margin-bottom: 30px;
-    /* list-style-type: none; */
-    margin-left: 20px;
+    list-style-type: none;
     line-height: 30px;
 }
 
@@ -80,26 +83,47 @@ ul div.pills{
     border-radius: 15px;
 }
 
-.blue{
+ul .marker{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 12.5px;
+}
+
+ul .done{
+    color: rgb(48, 190, 0);
+    border-color: rgb(48, 190, 0);
+}
+
+ul .undone{
+    color: rgb(238, 0, 0);
+    border-color: rgb(238, 0, 0);
+}
+
+ul .blue{
     background-color: rgb(0, 174, 255);
 }
 
-.purple{
+ul .purple{
     background-color: rgb(193, 99, 255);
 }
 
-.green{
+ul .green{
     background-color: rgb(9, 177, 0);
 }
 
-.orange{
+ul .orange{
     background-color: rgb(255, 183, 49);
 }
 
-.fuchsia{
+ul .fuchsia{
     background-color: rgb(255, 96, 255);
 }
 
-.vomitgreen{
+ul .vomitgreen{
     background-color: rgb(160, 200, 0);
 }
