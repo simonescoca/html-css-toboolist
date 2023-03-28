@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+}
+
+header > img.logo{
+    height: 70px;
+    vertical-align: top;
+}
+
+h1.ex-title{
+    display: inline-block;
+    font-size: 3rem;
+}
