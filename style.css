@@ -59,3 +59,14 @@ section.inputs > div.searchbar{
     padding: 7px;
     color: rgb(207, 207, 207);
 }
+
+main > section.list{
+    padding: 10px 50px;
+}
+
+section.list > ul{
+    margin-bottom: 30px;
+    /* list-style-type: none; */
+    margin-left: 20px;
+}
+
