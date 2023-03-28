@@ -29,7 +29,7 @@ h1.ex-title{
 main{
     background-color: white;
     margin: 50px auto;
-    height: 600px;
+    height: 800px;
     width: 60%;
     border-radius: 5px;
 }
@@ -68,5 +68,38 @@ section.list > ul{
     margin-bottom: 30px;
     /* list-style-type: none; */
     margin-left: 20px;
+    line-height: 30px;
 }
 
+ul div.pills{
+    color: white;
+    font-size: 0.7rem;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0px 9px;
+    border-radius: 15px;
+}
+
+.blue{
+    background-color: rgb(0, 174, 255);
+}
+
+.purple{
+    background-color: rgb(193, 99, 255);
+}
+
+.green{
+    background-color: rgb(9, 177, 0);
+}
+
+.orange{
+    background-color: rgb(255, 183, 49);
+}
+
+.fuchsia{
+    background-color: rgb(255, 96, 255);
+}
+
+.vomitgreen{
+    background-color: rgb(160, 200, 0);
+}
