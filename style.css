@@ -18,7 +18,11 @@ header{
 
 header > img.logo{
     height: 70px;
-    vertical-align: top;
+    vertical-align: middle;
+}
+
+header > h1.ex-title{
+    vertical-align: middle;
 }
 
 h1.ex-title{
